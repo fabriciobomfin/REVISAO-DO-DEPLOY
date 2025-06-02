@@ -22,7 +22,7 @@ function FormularioCadastro() {
 
     const cadastrarUsuario = async () => {
         try {
-            const response = await axios.post('http://tcc-backand-senai.onrender.com/usuarios', {nome, sexo, idade
+            const response = await axios.post('https://tcc-backand-senai-s7r7.onrender.com/usuarios', {nome, sexo, idade
                 , altura, peso, posicao, numeroCamisa})
             exibirMensagem(response.data.mensagem || 'Usuário cadastrado com sucesso!', 'sucesso')
             setNome('')
