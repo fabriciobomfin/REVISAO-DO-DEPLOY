@@ -1,0 +1,54 @@
+/* src\pages\Lista\styles.css */
+
+body {
+    background: url('../../assets/images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 15px;
+  }
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link-cadastro {
+    background-color: #ff8c00;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #000000; 
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.link-cadastro:hover {
+    background-color: #fafafa;
+}
+
+
+.link-lista {
+    background-color: #ff8c00;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid black; 
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.link-lista:hover {
+    background-color: #ffffff;
+}
+
+/*  #FFD700  ouro*/
+
+/*  #cc9e08 opeção 1*/
+
+/*  #ff8c00  opeção 2*/

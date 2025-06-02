@@ -1,0 +1,14 @@
+/* src\components\ListaDeUsuarios\styles.css */
+
+.lista-usuarios li {
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ca0000;
+  }
+  
+  .lista-usuarios li strong {
+    font-weight: bold;
+  }

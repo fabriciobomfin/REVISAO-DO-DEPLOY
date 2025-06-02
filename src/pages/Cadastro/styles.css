@@ -1,0 +1,18 @@
+/* src\pages\Cadastro\styles.css */
+
+.pagina-cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 15px;
+    background-color: #ce9211;
+    color: white;
+  }
+
+  body {
+    background: url('../../assets/images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
